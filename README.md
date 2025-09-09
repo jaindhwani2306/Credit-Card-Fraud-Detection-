@@ -46,6 +46,7 @@ SELECT
 FROM fraudTrain
 GROUP BY category
 ORDER BY fraud_rate_percent DESC;
+
 3. Top Merchants with Most Fraudulent Transactions
 This query helps spot specific merchants with a high count of fraudulent transactions.
 
@@ -60,6 +61,7 @@ FROM fraudTrain
 GROUP BY merchant
 ORDER BY fraud_transactions DESC
 LIMIT 10;
+
 4. Cities with High Fraud Rates
 This query identifies cities with a suspiciously high fraud rate, after filtering for cities with a minimum number of transactions to ensure the results are statistically significant.
 
@@ -75,6 +77,7 @@ GROUP BY city
 HAVING total_transactions > 1000
 ORDER BY fraud_rate_percent DESC
 LIMIT 10;
+
 5. Daily Transaction and Fraud Trend
 This query shows how the total number of transactions and the fraud rate change over time.
 
