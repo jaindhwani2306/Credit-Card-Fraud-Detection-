@@ -2,8 +2,6 @@
 This project focuses on building a machine learning model to detect fraudulent credit card transactions. The goal is to identify suspicious activity with high accuracy, minimizing both false positives (legitimate transactions flagged as fraud) and false negatives (fraudulent transactions missed by the model)
 The solution involves a complete end-to-end pipeline, from data exploration and cleaning to training and evaluating two powerful machine learning classifiers: Random Forest and XGBoost.
 
-2. Table of Contents
-If your README is long, a table of contents with links to different sections helps with navigation.
 
 3. Data Sources
  Dataset link : - ["https://www.kaggle.com/datasets/kartik2112/fraud-detection/data"]
